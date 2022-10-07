@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <map>
 #include <vector>
@@ -57,7 +58,7 @@ void BFS(int a, int b, int target) {
         cout << u.first << " " << 0 << endl;
       } else {
         if (u.first != 0)
-        count << 0 " " << u.second << endl;
+        cout << 0 << " " << u.second << endl;
       }
       return;
     }
@@ -89,7 +90,7 @@ void BFS(int a, int b, int target) {
       }
     }
     // from jug 2 to j1
-    int d = a - u.first;
+    d = a - u.first;
     if (u.second >= d) {
       int c = u.second - d; // transfer a little 
       if (m[{c,b}] != 1) {q.push({c,b});
