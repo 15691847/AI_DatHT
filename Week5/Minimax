@@ -82,6 +82,19 @@ void playGame(int board[][3]){
         cin >> x >> y; 
         // check x,y da co hay chua 
         // CODE HERE 
+        while (true) {
+      // nguoi danh
+      cout << "Nhap vi tri danh: ";
+      int x, y;
+      cin >> x >> y;
+      if (board[x][y] != 0) {
+        board[x][y] = 2; // O
+        break;
+      }
+      else {
+        cout << "Vi tri da bi danh";
+      }
+    }
         board[x][y] = 2; // O  
         // ai danh 
         // find best move 
