@@ -111,18 +111,7 @@ bool moveChessBoard(pair<int, int> A[], int type){
     
 }
 
-void playChessBoard(pair<int, int> currentChessBoard[], pair<int, int> targetChessBoard[]){
-    // Explore staste chessboard
-    
-        // Calculate COST of each action by heuristicDistance
-            // Up  
-            // Down 
-            // Left  
-            // Right 
-    // Get action with COST MIN 
-    // Check finished (if heuristicDistance=0 -> stop algorithms; else -> continue explore chessboard )
-    
-    
+void playChessBoard(pair<int, int> currentChessBoard[], pair<int, int> targetChessBoard[]){ 
 }
     
 
